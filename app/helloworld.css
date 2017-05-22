@@ -1,0 +1,17 @@
+.root {
+    background-color: orange;
+    display: flex;
+    align-items: center; /*侧轴的对其方式*/
+    justify-content: center; /*主轴方向上的对齐方式*/
+    flex-direction: column; /*主轴为垂直方向*/
+}
+
+.button {
+    display: block;
+    background-color: #ffeecc;
+    border-width: 2px;
+    width: 100px;
+    margin: 10px;
+    border-color: red;
+    border-radius: 8px;
+}
